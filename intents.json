@@ -1,0 +1,102 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you provide?",
+        "What can you do for me?",
+        "What do you offer?",
+        "What are your services?"
+      ],
+      "responses": [
+        "We provide revenue intelligence services",
+        "We offer revenue intelligence services"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "contact_us",
+      "patterns": [
+        "How can I contact you?",
+        "How can I reach you?",
+        "What's your contact information?",
+        "How can I get in touch?",
+        "How to connect with you?",
+        "I am interested in your services, how can I contact you?",
+        "I want to know more about your services, how can I contact you?"
+
+      ],
+      "responses": [
+        "You can reach us via email at contact@revinsight.com",
+        "Fill out the contact form on our website, or email us directly at contact@revinsight.com"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
